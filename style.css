@@ -1,0 +1,41 @@
+:root {
+    --black--: #010101;
+    --polar--: #f4f9fd;
+    --silver--: #afafaf;
+    --grey--: #4f4f50;
+    --blue--: #115bfb;
+    --turquoise: #3bedb7;
+}
+
+body {
+    margin: 0px;
+    min-width: 300px;
+    overflow: auto;
+    font-family: Helvetica, sans-serif;
+}
+
+.Navbar {
+    background-color: var(--polar--);
+    overflow: hidden;
+    flex: auto;
+    padding: 0px;
+}
+
+.Navbar a {
+    float: left;
+    color: var(--silver--);
+    text-align: center;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.Navbar #title {
+    float: right;
+    padding: 1rem 3rem;
+}
+
+.Navbar a:hover {
+    background: var(--grey--);
+    color: white;
+}
