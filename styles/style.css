@@ -26,6 +26,10 @@
     display: flex;
 }
 
+.contact{
+    text-align: center;
+}
+
 section{
     flex:33vw;
     background-color: rgb(193, 240, 232);
